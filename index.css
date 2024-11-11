@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  width: 100vw;
+  height: 80px;
+  background-color: #101010;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#header-logo {
+  width: 50px;
+  height: 42px;
+}
+
+#footer {
+  width: 100vw;
+  height: 228px;
+  background-color: #101010;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer-section {
+  width: 1200px;
+  height: 68px;
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 120px 80px 120px;
+}
+
+#footer-logo {
+  width: 81px;
+  height: 68px;
+  font-weight: 700;
+  size: 28px;
+  line-height: 34.13px;
+  align-items: center;
+  color: #ffffff;
+}
+
+.footer-icon {
+  width: 167px;
+  height: 44px;
+}
+
+#intro-section {
+  width: 1200px;
+  margin-top: 120px;
+  margin-bottom: 240px;
+}
+
+#intro-title {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87.77px;
+  color: #303030;
+  text-align: center;
+}
+
+#intro-sub-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29.26px;
+  color: #ababab;
+  text-align: center;
+}
+
+#intro-image-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  gap: 21px;
+}
+
+.intro-image {
+  width: 284px;
+  height: 400px;
+}
+
+#article1 {
+  width: 358px;
+  height: 796px;
+  margin-bottom: 49px;
+  margin-right: 150px;
+}
+
+#article2 {
+  width: 358px;
+  height: 157px;
+  margin-bottom: 80px;
+}
+
+#article3 {
+  width: 303px;
+  height: 559px;
+  gap: 16px;
+  display: flex;
+}
+
+#tour-days {
+  width: 198px;
+  height: 29px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29.26px;
+  color: #ababab;
+}
+
+#agency {
+  width: 358px;
+  height: 118px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58.51px;
+  color: #303030;
+  margin-top: 39px;
+}
+
+#frame1 {
+  width: 56px;
+  height: 559px;
+}
+
+.frame2 {
+  width: 56px;
+  height: 56px;
+  justify-content: space-between;
+}
+
+.frame3 {
+  width: 56px;
+  height: 56px;
+  gap: 10px;
+  border-radius: 40px 40px 40px 40px;
+  background-color: #1d1f24;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  font-size: 17px;
+  font-weight: 700;
+  color: green;
+  line-height: 20.72px;
+}
+
+
+.line {
+  width: 56px;
+  height: 56px;
+  margin-left: 28px;
+  border-left: 2px dotted; color: #121316;
+}
+#location-names{
+  width: 231px;
+  height: 559px;
+  gap: 16px;
+}
+.name-frame1{
+width: 231px;
+height: 79.83px;
+margin-bottom: 16px;
+}
+.Place-name{
+  font-size: 16px;
+  font-weight: 700; color: #000;
+  line-height: 19.5px;
+  margin: 20.42px 72px 4px 0px;
+}
+.place{
+  font-size: 12px;
+  font-weight: 400; color:#777;
+  line-height: 14.63px;
+}
+.zrg {
+  width: 692px;
+  height: 845px;
+  border-radius: 5px;
+}
+#Pricing{
+  width:789px;
+height:607px;
+margin-bottom: 240px;
+margin-left: 325px;
+margin-right: 325px;
+margin-top: 240px;
+}
+#pricing-title{
+  width: 299px;
+height: 157px;
+}
+#small-title{
+  font-size: 24px;
+  font-weight: 700; color:#ababab;
+  line-height: 29.26px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-right: 82px;
+  margin-left: 110px;
+}
+#big-title{
+  font-size: 48px;
+  font-weight: 700; color:#303030;
+  line-height: 58.51px;
+  text-align: center;
+}
+#Pack{
+  width: 590px;
+height: 370px;
+margin-left: 99.5px;
+margin-right: 99.5px;
+margin-top: 80px;
+}
