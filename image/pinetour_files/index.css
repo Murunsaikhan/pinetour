@@ -2,13 +2,6 @@
   margin: 0;
   padding: 0;
 }
-body{
-  width: 100vw;
-height: 3598px;
-background-color: #f4f4f4;
-
-
-}
 
 #header {
   width: 100vw;
@@ -23,23 +16,22 @@ background-color: #f4f4f4;
   width: 50px;
   height: 42px;
 }
-footer{
-  background-color: #101010;
-  width: 100vw;
-height: 228px;
-padding: 80px 120px 80px 120px;
-display: flex;
-justify-content: center;
-align-items: center;
 
+#footer {
+  width: 100vw;
+  height: 228px;
+  background-color: #101010;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 #footer-section {
   width: 1200px;
   height: 68px;
   display: flex;
   justify-content: space-between;
   margin: 80px 120px 80px 120px;
-  background-color: #101010;
 }
 
 #footer-logo {
@@ -49,7 +41,7 @@ align-items: center;
   size: 28px;
   line-height: 34.13px;
   align-items: center;
-  
+  color: #ffffff;
 }
 
 .footer-icon {
@@ -90,6 +82,7 @@ align-items: center;
   width: 284px;
   height: 400px;
 }
+
 #article1 {
   width: 358px;
   height: 796px;
@@ -193,15 +186,15 @@ margin-bottom: 16px;
 }
 #Pricing{
   width:789px;
-height:707px;
+height:607px;
 margin-bottom: 240px;
 margin-left: 325px;
 margin-right: 325px;
 margin-top: 240px;
-
 }
 #pricing-title{
   width: 299px;
+height: 157px;
 }
 #small-title{
   font-size: 24px;
@@ -232,10 +225,7 @@ height: 370px;
 border-radius: 24px 0px 0px 0px;
 }
 #starter-pack{
-  width: 285px;
-height: 370px;
-border-radius: 24px 24px 24px 24px;
-background-color: #ffffff;
+  margin-right: 20px;
 }
 #starter-list{
   width:155px;
@@ -244,15 +234,12 @@ margin-top: 40px;
 margin-left: 40px;
 margin-right: 90px;
 margin-bottom: 22px;
+gap: 28px;
 }
-.content-title{
+#content-title{
 font-size: 24px;
 line-height: 29.26px;
-text-align: left;
-}
-.content-title strong{
-width: 155px;
-height: 29px;
+text-align: center;
 }
 #S-content-section{
   width:127px;
@@ -261,15 +248,11 @@ margin-top: 28px;
 margin-right: 28px;
 }
 #S-content-section ul{
-  width: 69px;
-height: 24px;
 font-size: 20px;
+font-weight: 500;
 line-height: 24.38px;
 color: #777777;
-margin-left: 28px;
-}
-#S-content-section ul li{
-  margin-top: 13px;
+margin-top: 13px;
 }
 .Price{
   width:205px;
@@ -280,7 +263,6 @@ font-size: 32px;
 font-weight: 700;
 line-height: 39.01px;
 text-align: right;
-margin-top: 22px;
 }
 #L-content-section{
   width:127px;
@@ -288,9 +270,7 @@ height: 172px;
 margin-top: 28px;
 margin-right: 28px;
 }
-#Luxury-pack{
-  display: flex;
-}
+
 #luxury-list{
   width:159px;
 height: 192px;
@@ -310,10 +290,7 @@ margin-bottom: 59px;
 #green-order{
   width: 261px;
 height: 93px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+gap: 10px;
 }
 #green-order p{
 font-size: 32px;
@@ -329,49 +306,14 @@ height: 44px;
 border-radius: 4px;
 background: #18BA51;
 display: flex;
-justify-content: center;
-align-items: center;
+  justify-content: center;
+  align-items: center;
+
 }
 #order-now p{
 font-size: 16px;
 font-weight: 700;
 line-height: 19.5px;
+
 }
-#Luxury-pack{
-  width: 285px;
-height: 370px;
-border-radius: 24px 24px 24px 24px;
-background-color: #ffffff;
-}
-#Luxury-list{
-  width:155px;
-height: 229px;
-margin-top: 40px;
-margin-left: 40px;
-margin-right: 90px;
-margin-bottom: 22px;
-}
-#L-content-section{
-  width:127px;
-height: 172px;
-margin-top: 28px;
-margin-right: 28px;
-}
-#L-content-section ul{
-  width: 69px;
-height: 24px;
-font-size: 20px;
-line-height: 24.38px;
-color: #777777;
-margin-left: 28px;
-}
-#S-content-section ul li{
-  margin-top: 13px;
-}
-#Lprice{
-  font-size: 32px;
-font-weight: 700;
-line-height: 39.01px;
-text-align: right;
-margin-top: 22px;
-}
+

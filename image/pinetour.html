@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pinetour</title>
-    <link rel="stylesheet" href="index.css">
-</head>
+    
+<link rel="stylesheet" href="./pinetour_files/index.css"></head>
 
 <body>
     <header>
         <div id="header">
-            <img id="header-logo" src="image/header_logo.png" alt="">
+            <img id="header-logo" src="./pinetour_files/header_logo.png" alt="">
         </div>
     </header>
     <main style="
@@ -25,10 +24,10 @@
                 <h6 id="intro-sub-title">Trip</h6>
             </div>
             <div id="intro-image-container">
-                <img class="intro-image" src="image/suh.png" />
-                <img class="intro-image" src="image/charch.png" />
-                <img class="intro-image" src="image/lake.png" />
-                <img class="intro-image" src="image/sky_.png" />
+                <img class="intro-image" src="./pinetour_files/suh.png">
+                <img class="intro-image" src="./pinetour_files/charch.png">
+                <img class="intro-image" src="./pinetour_files/lake.png">
+                <img class="intro-image" src="./pinetour_files/sky_.png">
             </div>
         </div>
     </main>
@@ -107,24 +106,24 @@
                 </div>
             </div>
         </div>
-        </div>
+        
         <div id="gazriin-zrg">
-            <img class="zrg" src="image/gazriin zurag.png">
+            <img class="zrg" src="./pinetour_files/gazriin zurag.png">
         </div>
     </article>
-    <div id="Pricing" style="display: flex; flex-direction: column; align-items: center; ">
+    <div id="Pricing" style="display: flex; justify-content: center; flex-direction: column;">
         <div id="pricing-title">
             <div id="small-title">PRICING</div>
             <div id="big-title">Pricing of
                 <br>Our Agency
             </div>
         </div>
-        <div id="Pack" style="display: flex;">
+        <div id="Pack">
             <div id="starter-pack" class="pack-size" style="">
                 <div id="starter-list">
                     <div class="content-title"><strong>Starter pack</strong></div>
                     <div id="S-content-section">
-                        <ul>
+                        <ul style="justify-content: left;">
                             <li>Trip</li>
                             <li>Hotel</li>
                             <li>Breakfast</li>
@@ -132,44 +131,77 @@
                             <li>Dinner</li>
                         </ul>
                     </div>
-                    <div id="price" class="Price" >2100$</div>
+                </div>
+                <div id="price" class="Price">2100$</div>
                 </div>
             </div>
-                <div id="Luxury-pack" class="pack-size" style="margin-left:20px;">
-                    <div id="luxury-list">
-                        <div class="content-title"><strong>Luxuty pack</strong></div>
-                        <div id="L-content-section">
-                            <ul>
-                                <li>Starter pack</li>
-                                <li>Flights</li>
-                                <li>Cruice trip</li>
-                                <li>Cruice trip</li>
-                            </ul>
-                    </div>
-                    <div id="Lprice" class="Price" >4200$</div>
+            <div id="Luxury-pack" class="pack-size">
+                <div id="Luxuty-list">
+                </div>
+                <div id="luxury-list">
+                    <div class="content-title"><strong>Luxuty pack</strong></div>
+                    <div id="L-content-section"><strong></strong></div>
                 </div>
             </div>
         </div>
-    </div>
-    <div id="order">
-        <div id="green-order" style="flex-direction: column;">
-            <p>Are you ready?</p>
-            <div id="order-now">
-                <p>Order now</p>
-            </div>
+<div id="order">
+    <div id="green-order">
+        <p>Are you ready?</p>
+        <div id="order-now">
+            <p>Order now</p>
         </div>
     </div>
+</div>
+
     <footer>
         <div id="footer">
             <div id="footer-section">
-                <img id="fooder-logo" src="image/footer_logo.png">
+                <img id="fooder-logo" src="./pinetour_files/footer_logo.png">
                 <div style="display:flex; align-items: center;">
-                    <img class="footer-icon" style="padding-right: 20px;" src="image/facebook.png">
-                    <img class="footer-icon" src="image/instagram.png">
+                    <img class="footer-icon" style="padding-right: 20px;" src="./pinetour_files/facebook.png">
+                    <img class="footer-icon" src="./pinetour_files/instagram.png">
                 </div>
             </div>
         </div>
     </footer>
-</body>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
 
-</html>
+
+</body></html>
